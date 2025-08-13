@@ -16,17 +16,22 @@ export default function AboutPage() {
         <div className="flex-shrink-0">
           <Image
             src="/profile.jpg"
-            alt="Profile photo"
+            alt="Profile photo of Facundo Tejerina"
             width={200}
             height={200}
             className="rounded-full border-4 border-primary shadow-lg"
           />
         </div>
         <div className="space-y-4">
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-white">Your Name</h1>
+          <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
+            Facundo Tejerina
+          </h1>
           <p className="text-lg text-gray-600 dark:text-gray-300">
-            Short introduction or mission statement goes here. You can write about your background, passions, and what
-            you do.
+            I’m a digital content creator and marketing student passionate
+            about web development, design, and video editing. My goal is to
+            craft engaging, creative, and functional projects that connect with
+            audiences. I enjoy collaborating with others, learning new tools,
+            and bringing ideas to life through both design and strategy.
           </p>
         </div>
       </section>
